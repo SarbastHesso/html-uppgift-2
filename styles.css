@@ -17,13 +17,13 @@ body {
 
 /* header styling  */
 header {
-    margin: 2rem 0;
-    padding: 1rem 0;
+    margin: 1rem 0;
+    padding: .5rem 0;
 }
 
 header h1 {
     font-size: 3rem;
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
 }
 
 header p {
@@ -33,10 +33,11 @@ header p {
 /* main styling  */
 main {
     display: flex;
+    margin-bottom: 1rem;
 }
 
 .col {
-    padding: 2rem;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -46,18 +47,23 @@ main {
     flex: 1;
 }
 
+.long-col {
+    flex: 1.5
+}
+
 main p {
     font-size: 1.2rem;
-    padding: 1rem;
+    padding: .5rem;
 }
 
 main ul {
     font-size: 1.2rem;
-    padding: 1rem;
+    padding: .4rem;
 }
 
 main ul li {
     list-style:circle;
+    padding: .2rem;
 }
 
 main ul li span {
@@ -68,7 +74,7 @@ main img {
     width: 200px;
     height: 200px;
     align-self: center;
-    padding: 1rem;
+    padding: .5rem;
 }
 
 main a {
@@ -79,4 +85,13 @@ main a {
 main a:hover {
     background-color: bisque;
     border-radius: .5rem;
+}
+
+/* footer styling  */
+footer {
+    background-color: rgb(98, 88, 75);
+    text-align: center;
+    padding: 1.2rem;
+    color: bisque;
+    font-size: 1.2rem;
 }
