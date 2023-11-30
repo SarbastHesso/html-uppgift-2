@@ -14,13 +14,10 @@ body {
     margin: 0 auto;
 }
 
-img {
-    width: 250px;
-}
 
 /* header styling  */
 header {
-    margin: 3rem 0;
+    margin: 2rem 0;
     padding: 1rem 0;
 }
 
@@ -36,4 +33,50 @@ header p {
 /* main styling  */
 main {
     display: flex;
+}
+
+.col {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(250, 243, 236);
+    border: 1rem solid bisque;
+    border-radius: 2rem;
+    flex: 1;
+}
+
+main p {
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+main ul {
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+main ul li {
+    list-style:circle;
+}
+
+main ul li span {
+    font-weight: bold;
+}
+
+main img {
+    width: 200px;
+    height: 200px;
+    align-self: center;
+    padding: 1rem;
+}
+
+main a {
+    text-decoration: none;
+    align-self: center;
+}
+
+main a:hover {
+    background-color: bisque;
+    border-radius: .5rem;
 }
